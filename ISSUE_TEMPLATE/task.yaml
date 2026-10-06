@@ -1,0 +1,25 @@
+name: Task
+description: A unit of work for a sprint
+labels: []
+projects:
+- "your-org/1"
+body:
+  - type: dropdown
+    id: service
+    attributes:
+      label: Service
+      options:
+      - user-api
+      - game-api
+      - steam-service
+      - protos
+      - local-dev
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      description: How do we know this is done?
+    validations:
+      required: true
