@@ -1,6 +1,6 @@
 name: Task
 description: Template for tasks. Describes what the task is, the effected services, and any details pertaining to to the task.
-title: "[TASK] "
+title: "[TASK]"
 body:
 - type: dropdown
   id: aoe
