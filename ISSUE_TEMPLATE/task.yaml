@@ -2,7 +2,7 @@ name: Task
 description: A unit of work for a sprint
 labels: []
 projects:
-- "your-org/1"
+- "ds454/1"
 body:
   - type: dropdown
     id: service
