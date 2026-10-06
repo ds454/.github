@@ -1,0 +1,25 @@
+name: Task Template
+description: Template for tasks. Describes what the task is, the effected services, and any details pertaining to to the task.
+title: "[TASK] "
+body:
+  - type: dropdown
+    id: aoe
+    attributes:
+      label: Where does the work need to happen?
+      options:
+      - Frontend
+      - Generic Backend
+      - User API
+      - Game API
+      - Steamboat
+      - Infrastructure
+      - gRPC
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      description: How wll we know the task is completed?
+    validations:
+      required: true
